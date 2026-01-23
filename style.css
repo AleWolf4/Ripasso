@@ -1,0 +1,36 @@
+header {
+    background-color: lightslategray; 
+    color: white; /* colore testo*/
+    display: flex; /* posizionamento intelligente*/
+    justify-content: space-between; /* posizione orizontale*/
+    align-items: center; /* posizione verticale*/
+    height: 7vh; /* altezza*/
+    padding-left: 3vh; /* spaziatura all'interno dell'elemento */
+    padding-right: 3vh;
+}
+
+body { 
+    margin: 0
+}
+
+button {
+    border: none;
+    padding-top: 1bh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 50px;
+}
+
+.testo {
+    color: red;
+    text-align: center; /*allineamento di testo*/
+    font-size: 30px; /*dimensione di testo*/
+    font-family: monospace; /*tipo di font*/
+}
+
+.testo:hover {
+    background-color: yellowgreen;
+    color: white;
+    cursor: pointer;
+}
