@@ -20,6 +20,7 @@ button {
     padding-left: 2vh;
     padding-right: 2vh;
     border-radius: 50px;
+    border: 0.5 solid gray;
 }
 
 .testo {
@@ -33,4 +34,26 @@ button {
     background-color: yellowgreen;
     color: white;
     cursor: pointer;
+}
+
+#rosso {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 2vh;
+}
+
+.calcolatrice {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 5vh;
+    padding-top: 5vh;
+    flex-direction: column;
+}
+
+.numeri {
+    margin-bottom: 1vh;
 }
